@@ -5,7 +5,7 @@ $(document).ready(function() {
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
 		timeout:	"5000",
-		async : false,
+		async : false
 
 		success : function(data) {
 			$('#bitcoin_block_number').append(data.height);
